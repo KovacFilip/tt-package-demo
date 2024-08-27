@@ -13,7 +13,9 @@
         "check-format": "prettier --check .",
         "check-exports": "attw --pack .",
         "test": "vitest run",
-        "dev": "vitest"
+        "dev": "vitest",
+        "local-release": "changeset version && changeset publish",
+        "prepublishOnly": "npm run ci"
     },
     "homepage": "https://github.com/mattpocock/tt-package-demo",
     "main": "dist/index.js",
@@ -32,6 +34,7 @@
     "license": "MIT",
     "devDependencies": {
         "@arethetypeswrong/cli": "^0.15.4",
+        "@changesets/cli": "^2.27.7",
         "prettier": "^3.3.3",
         "typescript": "^5.5.4",
         "vitest": "^2.0.5"
