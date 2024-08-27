@@ -1,0 +1,30 @@
+{
+    "name": "tt-package-demo",
+    "version": "1.0.0",
+    "description": "A demo package for Total TypeScript",
+    "keywords": [
+        "demo",
+        "typescript"
+    ],
+    "scripts": {
+        "build": "tsc",
+        "ci": "npm run build"
+    },
+    "homepage": "https://github.com/mattpocock/tt-package-demo",
+    "bugs": {
+        "url": "https://github.com/mattpocock/tt-package-demo/issues"
+    },
+    "author": "Filip Kovac",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/KovacFilip/tt-package-demo"
+    },
+    "files": [
+        "dist"
+    ],
+    "type": "module",
+    "license": "MIT",
+    "devDependencies": {
+        "typescript": "^5.5.4"
+    }
+}
